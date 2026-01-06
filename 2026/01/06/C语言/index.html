@@ -4,15 +4,19 @@
   <meta charset="utf-8">
   
   
-  <title>Archives: 2026 | Hexo</title>
+  <title>C语言笔记总结 | Hexo</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta property="og:type" content="website">
-<meta property="og:title" content="Hexo">
-<meta property="og:url" content="http://example.com/archives/2026/index.html">
+  <meta property="og:type" content="article">
+<meta property="og:title" content="C语言笔记总结">
+<meta property="og:url" content="http://example.com/2026/01/06/C%E8%AF%AD%E8%A8%80/index.html">
 <meta property="og:site_name" content="Hexo">
 <meta property="og:locale" content="en_US">
+<meta property="og:image" content="c:\Users\27515\Desktop\P1.png">
+<meta property="article:published_time" content="2026-01-06T13:27:38.544Z">
+<meta property="article:modified_time" content="2026-01-06T13:29:34.060Z">
 <meta property="article:author" content="John Doe">
 <meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="c:\Users\27515\Desktop\P1.png">
   
     <link rel="alternate" href="/atom.xml" title="Hexo" type="application/atom+xml">
   
@@ -69,58 +73,150 @@
 </header>
 
       <div class="outer">
-        <section id="main">
-  
-  
-    
-    
-      
-      
-      <section class="archives-wrap">
-        <div class="archive-year-wrap">
-          <a href="/archives/2026" class="archive-year">2026</a>
-        </div>
-        <div class="archives">
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      <a href="/2026/01/06/C%E8%AF%AD%E8%A8%80/" class="archive-article-date">
-  <time class="dt-published" datetime="2026-01-06T13:27:38.544Z" itemprop="datePublished">Jan 6</time>
+        <section id="main"><article id="post-C语言" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
+  <div class="article-meta">
+    <a href="/2026/01/06/C%E8%AF%AD%E8%A8%80/" class="article-date">
+  <time class="dt-published" datetime="2026-01-06T13:27:38.544Z" itemprop="datePublished">2026-01-06</time>
 </a>
-      
+    
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
   
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/2026/01/06/C%E8%AF%AD%E8%A8%80/">C语言笔记总结</a>
+    <h1 class="p-name article-title" itemprop="headline name">
+      C语言笔记总结
     </h1>
   
 
-    </header>
-  </div>
-</article>
-  
+      </header>
     
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      <a href="/2026/01/05/hello-world/" class="archive-article-date">
-  <time class="dt-published" datetime="2026-01-05T11:38:41.337Z" itemprop="datePublished">Jan 5</time>
-</a>
+    <div class="e-content article-entry" itemprop="articleBody">
       
-  
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/2026/01/05/hello-world/">学习要点</a>
-    </h1>
-  
+        <h2 id=""><a href="#" class="headerlink" title=""></a></h2><span id="more"></span> 
 
-    </header>
+<h2 id="从源代码到执行文件"><a href="#从源代码到执行文件" class="headerlink" title="从源代码到执行文件"></a>从源代码到执行文件</h2><p><img src="C:\Users\27515\Desktop\P1.png"></p>
+<h2 id="数据类型"><a href="#数据类型" class="headerlink" title="数据类型"></a>数据类型</h2><table>
+<thead>
+<tr>
+<th>类型名称</th>
+<th>类型关键字</th>
+<th>占字节数</th>
+<th>其他叫法</th>
+<th>表示的数据范围</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>字符型</td>
+<td>char</td>
+<td>1</td>
+<td>signed char</td>
+<td>-128~127</td>
+</tr>
+<tr>
+<td>无符号字符型</td>
+<td>unsigned char</td>
+<td>1</td>
+<td>none</td>
+<td>0~255</td>
+</tr>
+<tr>
+<td>整型</td>
+<td>int</td>
+<td>4</td>
+<td>signed int</td>
+<td>-2147483648~2147483647</td>
+</tr>
+<tr>
+<td>无符号字符型</td>
+<td>unsigned int</td>
+<td>4</td>
+<td>none</td>
+<td>0~4294967295</td>
+</tr>
+<tr>
+<td>短整型</td>
+<td>short</td>
+<td>2</td>
+<td>short int</td>
+<td>-32768~32768</td>
+</tr>
+<tr>
+<td>无符号短整型</td>
+<td>unsigned short</td>
+<td>2</td>
+<td>unsigned short int</td>
+<td>0~65535</td>
+</tr>
+<tr>
+<td>长整型</td>
+<td>long</td>
+<td>4</td>
+<td>long int</td>
+<td>-2147483648~2147483647</td>
+</tr>
+<tr>
+<td>无符号长整形</td>
+<td>unsigned long</td>
+<td>4</td>
+<td>unsigned long</td>
+<td>0~4294967295</td>
+</tr>
+<tr>
+<td>单精度浮点数</td>
+<td>float</td>
+<td>4</td>
+<td>none</td>
+<td>3.4+&#x2F;-38(7 digits)</td>
+</tr>
+<tr>
+<td>双精度浮点数</td>
+<td>double</td>
+<td>8</td>
+<td>none</td>
+<td>1.7E+&#x2F;-308 (15 digits)</td>
+</tr>
+<tr>
+<td>长双精度浮点数</td>
+<td>long double</td>
+<td>10</td>
+<td>none</td>
+<td>1.2E+&#x2F;-4932(19 digits)</td>
+</tr>
+<tr>
+<td>长整型</td>
+<td>long long</td>
+<td>8</td>
+<td>__int64</td>
+<td>-9223372036854775808~9223372036854775808</td>
+</tr>
+</tbody></table>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://example.com/2026/01/06/C%E8%AF%AD%E8%A8%80/" data-id="cuidEsjS2-39lpFh1f1U1TM_q" data-title="C语言笔记总结" class="article-share-link"><span class="fa fa-share">Share</span></a>
+      
+      
+      
+    </footer>
   </div>
+  
+    
+<nav id="article-nav">
+  
+  
+    <a href="/2026/01/05/hello-world/" id="article-nav-older" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Older</strong>
+      <div class="article-nav-title">学习要点</div>
+    </a>
+  
+</nav>
+
+  
 </article>
-  
-  
-    </div></section>
-  
 
 
 </section>
